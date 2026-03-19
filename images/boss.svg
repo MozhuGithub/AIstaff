@@ -1,0 +1,79 @@
+<!-- 人物3：气质干练的男性小老板 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+  <defs>
+    <linearGradient id="skinGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8cfc0"/>
+      <stop offset="100%" style="stop-color:#d4b8a8"/>
+    </linearGradient>
+    <linearGradient id="hairGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151"/>
+      <stop offset="100%" style="stop-color:#1f2937"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 身体/西装 -->
+  <path d="M40 280 Q40 175 100 165 Q160 175 160 280" fill="url(#suitGrad)"/>
+  
+  <!-- 衬衫领 -->
+  <path d="M75 165 L100 190 L125 165" fill="#fff"/>
+  
+  <!-- 领带 -->
+  <path d="M95 190 L100 165 L105 190 L100 230 Z" fill="#0ea5e9"/>
+  
+  <!-- 脖子 -->
+  <rect x="88" y="140" width="24" height="32" fill="url(#skinGrad3)"/>
+  
+  <!-- 头发 -->
+  <ellipse cx="100" cy="75" rx="50" ry="50" fill="url(#hairGrad3)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="100" cy="88" rx="46" ry="50" fill="url(#skinGrad3)"/>
+  
+  <!-- 发际线 -->
+  <path d="M54 65 Q60 50 100 48 Q140 50 146 65 Q140 55 100 52 Q60 55 54 65" fill="url(#hairGrad3)"/>
+  
+  <!-- 眉毛 - 粗一些 -->
+  <path d="M62 76 Q75 72 88 76" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+  <path d="M112 76 Q125 72 138 76" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="75" cy="88" rx="7" ry="5" fill="#fff"/>
+  <ellipse cx="125" cy="88" rx="7" ry="5" fill="#fff"/>
+  <circle cx="76" cy="88" r="3.5" fill="#1a1a1a"/>
+  <circle cx="126" cy="88" r="3.5" fill="#1a1a1a"/>
+  <circle cx="77" cy="87" r="1.2" fill="#fff"/>
+  <circle cx="127" cy="87" r="1.2" fill="#fff"/>
+  
+  <!-- 鼻子 -->
+  <path d="M100 92 L97 108 L103 108" stroke="#c4a08a" stroke-width="2" fill="none"/>
+  
+  <!-- 嘴巴 - 坚定 -->
+  <path d="M88 120 Q100 124 112 120" stroke="#c47878" stroke-width="2.5" fill="none"/>
+  
+  <!-- 下巴线条 -->
+  <path d="M70 115 Q85 135 100 138 Q115 135 130 115" stroke="#d4b8a8" stroke-width="1" fill="none"/>
+  
+  <!-- 手臂 -->
+  <path d="M40 195 Q20 220 30 260" stroke="url(#suitGrad)" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M160 195 Q180 220 170 260" stroke="url(#suitGrad)" stroke-width="28" fill="none" stroke-linecap="round"/>
+  
+  <!-- 手 -->
+  <circle cx="30" cy="265" r="14" fill="url(#skinGrad3)"/>
+  <circle cx="170" cy="265" r="14" fill="url(#skinGrad3)"/>
+  
+  <!-- 手表 -->
+  <rect x="162" y="250" width="16" height="20" rx="3" fill="#fbbf24"/>
+  <circle cx="170" cy="260" r="6" fill="#1f2937"/>
+  
+  <!-- 文件/计划书 -->
+  <rect x="5" y="225" width="45" height="55" rx="3" fill="#fff"/>
+  <rect x="10" y="230" width="35" height="5" fill="#374151"/>
+  <rect x="10" y="240" width="30" height="3" fill="#9ca3af"/>
+  <rect x="10" y="248" width="35" height="3" fill="#9ca3af"/>
+  <rect x="10" y="256" width="25" height="3" fill="#9ca3af"/>
+  <rect x="10" y="264" width="32" height="3" fill="#9ca3af"/>
+</svg>
